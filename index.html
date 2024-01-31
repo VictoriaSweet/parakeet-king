@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Victoria Sweet</h1>
+        <nav>
+            <ul>
+                <li class="active"><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+      <p>I have been in healthcare for 10 years and throughout that time I have discovered that I have a knack for problem solving. I then decided to take a career leap into tech pursuing a full stack software engineer certificate within University of Texas at Austin, which I shall be graduating in January of 2024. I am proficient with both Linux and Windows systems, within both systems I have learned the industry standard libraries, packages and databases.</p>
+        <img src="profile-pic.png">
+    </section>
+
+    <section id="portfolio">
+      <a href="https://github.com/VictoriaSweet" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+    </section>
+
+    <section id="contact">
+      <a href="mailto:sweet.victoria1218@gmail.com">Email Me</a>
+    </section>
+
+    <section id="resume">
+        <a href="resume.png" download>Download Resume</a>
+        <ul>
+            <!-- List of proficiencies goes here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://github.com/VictoriaSweet" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/sweetcodes/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        <!-- Additional third platform -->
+    
+    </footer>
+
+    <script src="src\App.jsx"></script>
+</body>
 </html>
